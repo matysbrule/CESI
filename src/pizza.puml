@@ -1,0 +1,24 @@
+@startuml
+class Pizza {
+    - code: String
+    - nom: String
+    - prix: double
+
+    + Pizza(code: String, nom: String, prix: double)
+    + getCode(): String
+    + setCode(code: String): void
+    + getNom(): String
+    + setNom(nom: String): void
+    + getPrix(): double
+    + setPrix(prix: double): void
+    + toString(): String
+}
+
+
+
+
+
+
+
+
+@enduml
